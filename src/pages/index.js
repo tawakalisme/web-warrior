@@ -20,7 +20,7 @@ export default function Home({ data }) {
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Design</h2>
+          <h2>Web Warrior Design</h2>
           <h3>Develop & Deploy</h3>
           <p>{data.site.siteMetadata.description}</p>
           <Link to="/projects" className={styles.btn}>
