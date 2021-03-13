@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Navbar />
       <div className="content">{children}</div>
       <footer>
-        <p>Copyright 2021</p>
+        <p>Copyright 2021. Made with <a href="https://www.gatsbyjs.com/">Gatsby</a></p>
       </footer>
     </div>
   )
